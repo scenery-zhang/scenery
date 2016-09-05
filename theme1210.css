@@ -1,0 +1,145 @@
+/*
+Skin Name: Nivo Slider theme1210
+Skin URI: http://www.solagirl.net
+Version: 1.0
+Author: www.templatemonster.com
+Author URI: http://www.templatemonster.com/demo/37483.html
+*/
+
+.theme-theme1210 {
+	height:165px; /* 幻灯片高度在这里更改 */
+	width:1000px; /* 幻灯片宽度在这里更改 */
+	overflow:hidden;
+	position:absolute; /* 此处绝对定位(包括下面的定位设置)是为了使用twentyeleven主题，并非必须的 */
+	top:0;
+	left:0;
+	z-index:-1;
+}
+.theme-theme1210 .nivoSlider {	
+	position:relative;
+}
+.theme-theme1210 .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-theme1210 .nivoSlider a {
+	border:0;
+	display:block;
+}
+.theme-theme1210 .nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+.theme-theme1210 .nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+.theme-theme1210 .nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+.theme-theme1210 .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-theme1210 .nivo-controlNav {
+	bottom:20px;
+	height:11px;
+	left:0;
+    position:absolute;
+	text-align:right;
+	width:940px;		
+}
+.theme-theme1210 .nivo-controlNav a {
+    position:relative;
+	z-index:99;
+	cursor:pointer;
+	display:inline-block !important;
+	width:12px;
+	height:11px;
+	border-radius:6px;
+	background:url('images/bullets.png') no-repeat 100% 0; /* 切换按钮图片 */
+	margin:0 1px;
+	text-decoration:none;
+	line-height:11px;
+	font-size:0;
+	color:#dbdbdb;
+}
+.theme-theme1210 .nivo-controlNav a:hover,
+.theme-theme1210 .nivo-controlNav a.active {
+	background-position: 0 0;
+}
+.theme-theme1210 .nivo-directionNav a {
+	cursor:pointer;
+	position:absolute;
+	display:block;
+	width:66px;
+	height:66px;
+	text-indent:-9999px;
+	border:0;
+	top:50%;
+	margin-top:-33px;
+	background:url('images/direction_nav.png') no-repeat 0 0; /* 方向控制按钮的图片 */
+	z-index:99;
+}
+.theme-theme1210 a.nivo-nextNav {
+	right:5px;
+	background-position:-66px 0;
+}
+.theme-theme1210 a.nivo-nextNav:hover {
+	background-position:-66px -66px;
+}
+.theme-theme1210 a.nivo-prevNav {
+	left:5px;
+	background-position:0 0;
+}
+.theme-theme1210 a.nivo-prevNav:hover {
+	background-position:0 -66px;
+}
+.theme-theme1210 .nivo-controlNav img {
+	display:inline; /* Unhide the thumbnails */
+	position:relative;
+	margin-right:10px;
+	width:120px;
+	height:auto;
+}
+
+
+.theme-theme1210 .nivo-controlNav img {
+	display: inline; /* Unhide the thumbnails */
+	position: relative;
+	width: 127px;
+	height: 101px;
+	margin: 0;
+}
+.theme-theme1210 .nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	color:#fff;
+	padding:0 20px;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:95%;
+	z-index:89;
+}
+.theme-theme1210 .nivo-caption .nivo-caption-inner {
+	padding:0;
+	margin:0;
+}
+.theme-theme1210  .nivo-html-caption {
+    display:none;
+}
